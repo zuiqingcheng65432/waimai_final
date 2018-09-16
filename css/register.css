@@ -1,0 +1,180 @@
+body{
+	background: url(../img/图层1.png) ;
+	background-size: cover;
+	font-family: "苹方";
+}
+.contaniner{
+	padding: 0 0.24rem;
+}
+.btn{
+	width: 1.2rem;
+	height: 0.5rem;
+	padding: 0.12rem 0.24rem;
+	background: rgba(214,214,214,0.3);
+	margin-top: 0.48rem;
+	text-align: center;
+	color: #fff;
+	line-height: 0.25rem;
+	font-size: 0.24rem;
+	border-radius: 0.2rem;
+	margin-bottom: 1.96rem;
+}
+
+.contaniner h2{
+	margin-bottom: 0.5rem;
+	text-align: center;
+	color: #fff;
+	font-size:0.3rem
+}
+.user-info{
+	width: 6.5rem;
+	height: 6.9rem;
+	background: rgba(0,0,0,0.2);
+	margin: 0 auto;
+	border-radius: 0.18rem;
+	padding: 0.6rem 0.5rem 0.2rem 0.5rem;
+}
+.user-info .tel{
+	margin-bottom: 1rem;
+	color: #Fff;
+	position: relative;
+	padding: 0.2rem 0 0.2rem 0.2rem;
+	border: 0.04rem solid #acd598;
+	border-radius:0.5rem;
+}
+.user-info .tel.num{
+	width: 3.2rem;
+	margin-right: 0.2rem;
+	height: 1rem;
+}
+.user-info .tel.num2{
+	background: #323e46;
+	width: 2.1rem;
+	height: 1rem;
+}
+.user-info .tel-pos{
+	background: #556570;
+	font-size: 0.2rem;
+	color: #fff;
+	position: absolute;
+	top: -0.16rem;
+	left: 0.56rem;
+	z-index: 999;
+}
+.user-info .tel-last{
+	background: #2E2E32;
+}
+.user-info .tel-text{
+	color: #fff;
+	margin-left: 0.2rem;
+	font-size: 0.22rem;
+}
+.user-info .tel-text::-webkit-input-placeholder{
+	color: #fff;
+}
+.user-info .tel-text2{
+	text-align: center;
+}
+.user-info .icon-yanjing{
+	position: absolute;
+	right: 0.2rem;
+	top: 0.2rem;
+}
+.pwd{
+	margin-left: 1.08rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.7rem;
+}
+
+.pwd .que{
+	text-align: center;
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.3rem;
+	color: #000;
+	border-radius:0.25rem;
+	background: #acd598;
+}
+.pwd .forget{
+	display: block;
+	color: #fff;
+	font-size: 0.22rem;
+	margin-top: 0.1rem;
+	margin-left: 0.2rem;
+}
+
+.login-btn{
+	font-size: 0.4rem;
+	line-height: 1rem;
+	text-align: center;
+	color: #fff;
+	border: 0.03rem solid #2f8a8a;
+	width: 2.76rem;
+	height: 1rem;
+	margin: 0 auto 0.5rem;
+	border-radius: 0.6rem;
+	background: linear-gradient(#45484f,#372e2f);
+}
+.thirdparty{
+	width: 6rem;
+	height: 0.5rem;
+	margin: 0 auto 0.86rem;
+}
+.thirdparty span{
+	margin-right: 0.04rem;
+	width: 0.16rem;
+	height: 0.16rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	display: block;
+	float: left;
+}
+.thirdparty span.cir-fir{
+	background: #b3d465;
+}
+.thirdparty span.cir-sec{
+	background: #acd598;
+}
+.thirdparty p{
+	color: #fff;
+	font-size: 0.4rem;
+	margin-top: -0.06rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.thirdparty .fl{
+	margin-left: 0.4rem;
+	margin-top: 0.2rem;
+}
+.thirdparty .fr
+{
+	margin-right: 0.2rem;
+	margin-top: 0.2rem;
+}
+.engfooter{
+	font-size: 0.32rem;
+	color: #b3d465;
+	text-align: center;
+}
+.icon-footer{
+	width: 2.8rem;
+	height: 0.7rem;
+	margin: 0 auto;
+	
+}
+.icon-footer i{
+	border-radius: 0.6rem;
+	margin-right: 1.3rem;
+	font-size: 0.7rem;
+}
+.icon-footer i.icon-qq{
+	background: #fff;
+	color: #1dccff;
+}
+.icon-footer i.icon-weixinhover{
+	background: #fff;
+	margin-right: 0;
+	color: #1c7213;
+}

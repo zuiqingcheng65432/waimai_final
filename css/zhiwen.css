@@ -1,0 +1,89 @@
+.top{
+	width: 100%;
+	background: #FF6D00;
+	padding: 0.64rem 0.24rem 0;
+	color: #fff;
+}
+.confirm{
+	width: 100%;
+	height: 1.4rem;
+	background: #FF6E01;
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 0.6rem 0.24rem 0.24rem;
+	z-index: 999;
+}
+
+
+.confirm h2{
+	display: inline;
+	margin-left: 2.4rem;
+}
+.confirm h3.eng{
+	opacity: 0.6;
+	margin-left: 2.4rem;
+	font-size: 0.3rem;
+	margin-top: -0.4rem;
+}
+.bank{
+	border-radius: 0.2rem;
+	background: #FF6E00;
+	margin: 1.2rem 0.7rem 0.4rem 0.7rem;
+	padding: 0.3rem 0 0.3rem 0.26rem;
+}
+.bank i{
+	font-size: 0.56rem;
+	color: #fff;
+	margin-right: 0.32rem;
+}
+.bank .text h2{
+	font-size: 0.26rem;
+	color: #fff;
+}
+.price{
+	color: #fd1a1a;
+	margin-left: 2.0rem;
+	font-size: 0.44rem;
+}
+.price .big{
+	font-size: 0.86rem;
+}
+.price h3{
+	color: #fd1a1a;
+	font-weight: bolder;
+	font-size: 0.3rem;
+}
+.dot{
+	border-bottom: 0.04rem dotted #FF6D00;
+	height: 0.02rem;
+	margin: 0.46rem 0.9rem;
+}
+.english1{
+	margin-left: 1.8rem;
+	font-weight: bolder;
+	font-size: 0.3rem;
+	color:lightgray;
+	
+}
+.english2{
+	font-family: "苹方";
+	margin-left: 3rem;
+	font-size: 0.3rem;
+}
+.zhiwen{
+	width: 2.68rem;
+	height: 2.68rem;
+	margin: 1.5rem auto 1rem;
+	
+}
+.des{
+	margin-left: 0.3rem;
+}
+.des h3{
+	text-align: center;
+	font-family: "苹方";
+	font-weight: bolder;
+	font-size: 0.22rem;
+	color: #FF6E00;
+}

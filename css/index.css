@@ -1,0 +1,297 @@
+
+#top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1rem;
+	background: #ff6d01;
+	z-index: 999;
+}
+#top p{
+	line-height: 1rem;
+	float: left;
+	font-size: 0.3rem;
+	color: #fff;
+	margin-left: 0.25rem;
+}
+#top input{
+	float: left;
+	margin-top: 0.24rem;
+	margin-left: 0.68rem;
+	height: 0.5rem;
+	width: 4.16rem;
+	border-radius: 0.3rem;
+	padding-left: 0.6rem;
+}
+
+.icon-sousuo{
+	position: absolute;
+	top: 0.3rem;
+	left: 1.7rem;
+}
+#top .scan{
+	position: relative;
+	top: 0.24rem;
+	right: 0.24rem;
+	float: right;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 0.25rem;
+	background: #fff;
+}
+
+#top .scan i{
+	color: #ff6e01;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 0.12rem;
+
+}
+
+
+input::-webkit-input-placeholder{
+	font-size: 0.16rem;
+	color: #ccc;
+}
+
+/*top end*/
+#banner{
+	margin-top: 1rem;
+	width: 100%;
+	position: relative;
+	height: 100%;
+}
+#banner img{
+	height: 162px;
+	width: 100%;
+}
+#banner .dot{
+	position: absolute;
+	bottom: 0.32rem;
+	left: 3.2rem;
+}
+#banner .dot li{
+	border-radius: 0.08rem;
+	float: left;
+	width: 0.16rem;
+	height: 0.16rem;
+	background: #fff;
+	margin-right: 0.1rem;
+	
+}
+#banner .dot li.active{
+	width: 0.5rem;
+}
+
+
+
+
+
+#icon {
+	margin-bottom:0.3rem;
+	width: 100%;
+	height: 4.28rem;
+	padding:0.24rem 0 0.24rem 0.36rem;
+}
+
+#icon div{
+	width: 1.44rem;
+	height: 1.44rem;
+	border-radius: 0.72rem;
+	border: 1px solid red;
+}
+#icon div img{
+	width: 0.76rem;
+	height: 0.76rem;
+	margin-top: 0.32rem;
+}
+#icon li
+{
+	text-align: center;
+	padding-bottom: 0.24rem;
+	margin-right: 0.34rem;
+	float: left;
+}
+#icon li span{
+	font-size: 0.2rem;
+	
+}
+
+
+#content,#recommend{
+	width: 100%;
+	height: auto;
+	font-size: 0.26rem;
+	text-align: center;
+}
+.good{
+	margin-left: 1.8rem;
+}
+#recommend{
+	margin-bottom: 0.44rem;
+}
+.good img{
+	margin-right: 0.2rem;
+	width: 0.9rem;
+	height: 0.76rem;
+	float: left;
+}
+.good .text{
+	float: left;
+}
+.fruit
+{
+	margin-top: 0.5rem;
+	width: 100%;
+	float: none;
+	height: 100%;
+	margin-bottom: 1.14rem;
+}
+
+
+
+
+
+
+.list{
+	margin-bottom: 1.24rem;
+	padding: 0 0.24rem;
+	width: 100%;
+}
+.list ul{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.list ul li{
+	text-align: center;
+	width: 1.5rem;
+	height: 0.4rem;
+	line-height: 0.3rem;
+	font-size: 0.20rem;
+	border: 0.03rem solid #ff6e01;
+	border-radius: 0.3rem;
+}
+.list .menu{
+	margin-top: 0.26rem;
+	padding: 0.26rem 0.26rem 0.26rem 0;
+	width: 100%;
+	height: 2.5rem;
+	border-bottom: 0.06rem solid #fff7d0;
+	position: relative;
+	
+}
+.list .menu .fl img{
+	width: 1.54rem;
+	height: 1.92rem;
+}
+.list .fr{
+	width: 5rem;
+}
+.list h3{
+	margin-top: -0.04rem;
+	float: left;
+	font-size: 0.30rem;
+}
+.list p{
+	margin-top: 0.1rem;
+	font-size: 0.2rem;
+	color: #a9a1a1;
+	line-height:0.30rem;
+}
+.menu-top #star i{
+	color: #FF6D00;
+	display: block;
+	float: left;
+	margin-left: 0.02rem;
+	margin-top: -0.04rem;
+}
+.menu-top #star i.none{
+	color: #e7c9c9;
+}
+.list span{
+	display: block;
+	float: left;
+}
+.list .first{
+	height: 0.4rem;
+}
+.list .sub{
+	font-size: 0.1rem;
+	line-height: 0.26rem;
+	text-align: center;
+	width: 0.7rem;
+	height: 0.26rem;
+	border: 0.02rem solid #ec6941;
+	border-radius: 0.3rem;
+}
+.list .first{
+	margin-top:0.04rem;
+}
+.list span{
+	color: #a9a1a1;
+	font-size: 0.16rem;
+	margin-left: 0.4rem;
+	margin-top:0.04rem;
+}
+.list em{
+	font-size: 0.1rem;
+	color: #ec6941;
+	font-style: normal;
+}
+.list img.pos{
+	margin-left: 0.23rem;
+	width: 0.25rem;
+	height: 0.3rem;
+}
+.list img.time{
+	margin-left: 0.16rem;
+	width: 0.25rem;
+	height: 0.3rem;
+}
+.list  .lo{
+	position: absolute;
+	width: 0.52rem;
+	height: 0.52rem;
+	top: 0;
+	right: 0;
+}
+
+.tab{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: white;
+	width: 100%;
+	padding-top: 0.34rem;
+ 	height: 1.24rem; 
+	box-shadow:  0 -0.05rem 0.15rem 0.01rem rgb(255, 232, 136);
+}
+.tab ul{
+	display: flex;
+	justify-content: space-around;
+}
+.tab ul li{
+	padding-bottom: 0.2rem;
+	text-align: center;
+	float: left;
+}
+.tab ul li span{
+	font-size: 0.18rem;
+}
+.tab ul li span.index
+{
+	color: #FF6D01;
+}
+.tab ul li i{
+	font-size: 0.4rem;
+	display: block;
+}
+.icon-shouye{
+	color: #FF6D01;
+}
+.tab ul li i:hover{
+	color: #FF6D01;
+}

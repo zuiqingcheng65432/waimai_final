@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="css/basic.css"/>
+		<link rel="stylesheet" href="css/rem.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_791067_wn973lgsvk.css" />
+		<script src="js/register.js"></script>
+	</head>
+	<body>
+		<div class="contaniner">
+			<div class="top clearfix">
+				
+				<div class="btn fr">
+				<a href="login.html" style="color: #fff;">登录</a>
+				</div>
+			</div>
+			<div class="thirdparty">
+				<div class="fl">
+					<span class="cir-fir"></span>
+					<span class="cir-sec"></span>
+					<span></span>
+				</div>
+				<p>welcome to register</p>
+				<div class="fr">
+					<span></span>
+					<span class="cir-sec"></span>
+					<span class="cir-fir"></span>
+				</div>
+			</div>
+			<div class="user-info">
+				<div class="tel">
+					<span class="tel-pos">Your Phone</span>
+					<i class="iconfont icon-pingguo"></i>
+					<input type="text" class="tel-text" style="width: 3rem;background: transparent;" placeholder="请输入您的手机号"></span>
+				</div>
+				<div class="clearfix">
+					<div class="tel num fl">
+						
+						<i class="iconfont icon-lyq_suo"></i>
+						<input type="text" class="tel-text" placeholder="请输入验证码" style="width: 2rem;background: transparent;"></span>
+					</div>
+					<div class="tel num2 fl">
+						<span class="tel-text tel-text2">获取验证码</span>
+					</div>
+				</div>
+				
+				<div class="tel">
+					<span class="tel-pos tel-last">Password</span>
+					<i class="iconfont icon-pingguo"></i>
+					<input type="password" class="tel-text" style="width: 3rem;background: transparent;" placeholder="请输入您的密码"></span>
+				</div>
+		
+			<div class="login-btn">
+				<a href="login.html">立即注册</a>
+			</div>
+			
+			
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		let oBtn=document.getElementsByClassName("login-btn")[0];
+		let oa=oBtn.getElementsByTagName("a")[0];
+		oa.style.color="#fff";
+		oBtn.onclick=function(){
+			this.style.background="#1dccff";
+		}
+	</script>
+</html>

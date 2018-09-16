@@ -1,0 +1,179 @@
+.top{
+	width: 100%;
+	height: 3rem;
+	background: #ff6e00;
+	padding: 0.7rem 0.24rem 0.28rem 0.24rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+.top-module{
+	margin-bottom: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.top-module .back,.top-module .share{
+	color: #fff;
+
+}
+.top-module i{
+	font-size: 0.4rem;
+}
+.top-module .text h2{
+	text-align: center;
+	font-size: 0.32rem;
+	color: #fff;
+	
+}
+.top-module .text h2.details-text{
+	margin-top: -0.06rem;
+}
+.top-module .text h2.eng{
+	margin-top: -0.3rem;
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+}
+.top .user-pic{
+	margin-right: 0.36rem;
+	margin-left: 0.2rem;
+	width: 1.14rem;
+	height: 1.14rem;
+	border-radius: 0.57rem;
+	background:url(../img/pic.png);
+	background-size: cover;
+	
+}
+.more{
+	margin-top: 0.36rem;
+
+}
+.more i{
+		font-size: 0.5rem;
+		color: #fff;
+}
+.top .user-info-de p{
+	font-size: 0.26rem;
+	color: #fff;
+}
+.top .user-info-de .tel{
+	margin-top: 0.26rem;
+}
+.top .user-info-de .tel i{
+	margin-right: 0.1rem;
+}
+
+.center{
+	margin-top: 3rem;
+	margin-bottom: 1.4rem;
+}
+
+.center-info{
+	padding: 0.24rem;
+	border-bottom: 0.05rem solid #ccc;
+}
+.center-info ul{
+	display: flex;
+	justify-content: space-between;
+}
+.center-info ul li{
+	text-align: center;
+	width: 2.12rem;
+	height: 0.94rem;
+	border-right: 0.05rem solid #ccc;
+}
+.center-info ul li.none{
+	border: none;
+}
+.center-info ul li .first{
+	color: #ffae5f;
+	margin-bottom: 0.1rem;
+}
+.center-info ul li .first.num{
+	color: #f86c6c;
+}
+.center-info ul li .first.number{
+	color: blue;
+}
+.center-list{
+	padding: 0.14rem 0.4rem;
+}
+.center-list li{
+	padding: 0.14rem 0;
+	border-bottom: 0.04rem solid #ebebeb;
+}
+.center-list li:last-child{
+	border-bottom: none;
+}
+
+.center-list .gray{
+	color: #ccc;
+	margin-top: 0.1rem;
+}
+.icon{
+	padding-top:0.3rem ;
+	margin-right: 0.28rem;
+}
+.icon .icon-arrow-right{
+	font-size: 0.4rem;
+}
+.icon .icon-weizhi{
+	color: deepskyblue;
+}
+.icon .icon-aixin{
+	color: red;
+}
+.icon .icon-unie637{
+	color: #FF6E00;
+}
+.icon .icon-gouwudai{
+	color: green;
+}
+.icon .icon-weigongyi{
+	color: blue;
+}
+.icon .icon-kefuyl{
+	color: purple;
+}
+.icon .icon-haoping
+{
+	color: #FF0000;
+}
+
+
+.tab{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: white;
+	width: 100%;
+	padding-top: 0.34rem;
+ 	height: 1.24rem; 
+	box-shadow:  0 -0.05rem 0.15rem 0.01rem rgb(255, 232, 136);
+}
+.tab ul{
+	display: flex;
+	justify-content: space-around;
+}
+.tab ul li{
+	padding-bottom: 0.2rem;
+	text-align: center;
+	float: left;
+}
+.tab ul li span{
+	font-size: 0.18rem;
+}
+.tab ul li span.index
+{
+	color: #FF6D01;
+}
+.tab ul li i{
+	font-size: 0.4rem;
+	display: block;
+}
+.icon-mine{
+	color: #FF6D01;
+}
+.tab ul li i:hover{
+	color: #FF6D01;
+}

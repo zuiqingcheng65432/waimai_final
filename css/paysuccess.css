@@ -1,0 +1,118 @@
+.top{
+	color: #fff;
+}
+
+
+.confirm{
+	width: 100%;
+	height: 1.4rem;
+	background: #FF6E01;
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 0.5rem 0.24rem 0.24rem;
+	z-index: 999;
+}
+.confirm h2{
+	display: inline;
+	margin-left: 2.4rem;
+}
+.tip{
+	margin-bottom: 0.2rem;
+	margin-top: 1.4rem;
+	width: 100%;
+	padding:0.24rem;
+}
+.tip-module{
+	padding: 0.3rem;
+	box-shadow: 0 0 0.6rem #f5e4d7;
+	height: 2.28rem;
+}
+.tip-module p{
+	font-size: 0.32rem;
+	margin-bottom: 0.24rem;
+	color: #d20b0b;
+}
+.tip-module .pic{
+	margin-right: 0.58rem;
+	width: 1.62rem;
+	height: 1.62rem;
+	border-radius: 0.2rem;
+	background: url(../img/food2.png);
+	background-size: cover;
+}
+.tip-module i{
+	font-size: 0.3rem;
+	margin-right: 0.2rem;
+	color: #FF6E00;
+}
+
+.eng{
+	text-align: center;
+	font-size: 0.26rem;
+	color: #ccc;
+}
+.suc{
+	margin-bottom: 0.2rem;
+	margin-top: -0.03rem;
+	font-size: 0.24rem;
+	text-align: center;
+	color:#d20b0b ;
+}
+.go,.shouye{
+	margin-bottom: 0.46rem;
+	margin-left: 1.36rem;
+	border: none;
+	font-size: 0.26rem;
+	padding: 0.24em 0.3rem;
+	background: #FF6E01;
+	border-radius: 0.3rem;
+	color: #fff;
+}
+.recommend{
+	padding: 0 0.24rem;
+	margin-top: 0.24rem;
+	
+}
+.recommend .text{
+	font-size: 0.3rem;
+	font-weight: bold;
+	font-family: "Adobe 黑体 Std";
+}
+.recommend .english{
+	font-weight: bold;
+	margin-top: -0.1rem;
+	color: #ccc;
+	font-size: 0.24rem;
+}
+.recommend-list{
+	margin-top: 0.3rem;
+}
+.recommend-list ul{
+	display: flex;
+	justify-content: space-between;
+}
+.recommend-list ul li{
+	padding-top: 2.24rem;
+	text-align: center;
+	margin-bottom: 0.3rem;
+	margin-right: 0.3rem;
+	border-radius: 0.3rem;
+	width: 3.5rem;
+	height: 4.2rem;
+	border: 0.01rem solid #fab27d;
+	border-bottom: 0.03rem solid #FF6D00;
+	background: url(../img/food1.png) top center no-repeat;
+}
+.recommend-list ul li.none{
+	margin-right: 0;
+}
+.recommend-list ul li .sale{
+	color: gray;
+	margin-top: 0.3rem;
+	margin-bottom: 0.2rem;
+}
+.recommend-list ul li .dollar{
+	color: #ff6e01;
+}
+

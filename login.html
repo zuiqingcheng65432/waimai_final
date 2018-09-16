@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/basic.css"/>
+		<link rel="stylesheet" href="css/rem.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_791067_wn973lgsvk.css" />
+		<script src="js/login.js"></script>
+	</head>
+	<body>
+		<div class="contaniner">
+			<div class="top clearfix">
+				<div class="btn fr">
+				<a href="index.html" style="color: #fff;">注册</a>
+				</div>
+			</div>
+			
+			<div class="pic-info">
+				
+			</div>
+			<h2>相濡以沫</h2>
+			<div class="user-info">
+				<div class="tel">
+					<span class="tel-pos">Your Phone</span>
+					<i class="iconfont icon-pingguo"></i>
+					<input type="text" class="tel-text" placeholder="请输入您的手机号" style="background: transparent;"></span>
+				</div>
+				<div class="tel">
+					<i class="iconfont icon-yanjing"></i>
+					<span class="tel-pos">Password</span>
+					<i class="iconfont icon-lyq_suo"></i>
+					<input type="password" class="tel-text" placeholder="请输入6位数密码" style="background: transparent;"></span>
+				</div>
+			</div>
+			<div class="pwd clearfix">
+					<span class="que fl">?</span>
+					<span class="forget fl">忘记密码</span>
+			</div>
+		
+			<div class="login-btn">
+				<a href="首页.html">登录</a>
+			</div>
+			
+			<div class="thirdparty">
+				<div class="fl">
+					<span class="cir-fir"></span>
+					<span class="cir-sec"></span>
+					<span></span>
+				</div>
+				<p>请选择第三方登录</p>
+				<div class="fr">
+					<span></span>
+					<span class="cir-sec"></span>
+					<span class="cir-fir"></span>
+				</div>
+			</div>
+			<p class="engfooter">QINGXUANZEDISANFANGDENGLU</p>
+			<div class="icon-footer">
+				<i class="iconfont icon-qq"></i>
+				<i class="iconfont icon-weixinhover"></i>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		let oBtn=document.getElementsByClassName("login-btn")[0];
+		let oa=oBtn.getElementsByTagName("a")[0];
+		oa.style.color="#fff";
+		oBtn.onclick=function(){
+			this.style.background="#1dccff";
+		}
+	</script>
+</html>
